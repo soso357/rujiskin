@@ -6,19 +6,12 @@ import Navbar from "./Navbar/Navbar";
 import Products from "./pages/Products";
 import Home from "./pages/Home";
 import {  Link, Route, Routes } from "react-router-dom";
+import {Header, Lavish} from './components'
 
 // VERSAC
-const Header =()=> {
-  return <h1 className="ruji">Rujiskin</h1>;
-}
 
-const Lavish =(props) => {
-  return (
-    <lavish>
-      <p> Sun and dreams * {props.adjective}</p>
-    </lavish>
-  );
-}
+
+
 
 const Glamorous = (props) => {
   return (
