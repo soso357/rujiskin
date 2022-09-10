@@ -1,6 +1,6 @@
 .container {
     color: rgb(197, 229, 57);
-    background-image: url(/src/images/naruto.avif);
+    /*background-image: url(/src/img/naruto.avif);   */
     position: fixed;
     min-width: 100%;
     min-height: 100%;
