@@ -38,7 +38,7 @@ const Cart = () => {
                           updateItemQuantity(item.id, item.quantity - 1)
                         }
                       >
-                        -
+                        
                       </button>
                       <button
                         className="btn btn-info ms-2"

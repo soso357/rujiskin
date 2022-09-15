@@ -2,12 +2,14 @@ import React from "react";
 import Itemcard from "../../Itemcard";
 import data from "../../data";
 
+
 const Products = () => {
-  return (
+  return ( 
     
     <>
+    
       <h1 className="text-center mt-3"> All products</h1>
-      <section className="py-4 container">
+      <section className="py-4 container-product">
         <div className="row justify-content-center"></div>
         {data.productData.map((item, index) => {
           return(

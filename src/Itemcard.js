@@ -20,4 +20,12 @@ const Itemcard = (props) => {
   );
 };
 
+
+
+  
+
+
+
 export default Itemcard;
+
+
