@@ -18,17 +18,20 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-     <PinterestLayoute/>
+      <PinterestLayoute/>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/products" element={<Products />} />
 
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+
       </Routes>
+      
       <CartProvider>
         <Cart />
       </CartProvider>
+      
     </div>
   );
 };
