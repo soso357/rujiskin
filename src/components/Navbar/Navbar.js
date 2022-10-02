@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-
+import { ReactComponent as Logo } from "../../img/logo.svg";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
       <span className="nav-logo">
-        <Link to="/home">Rujiskin</Link>
+        <Link to="/home">
+          <Logo />
+        </Link>
       </span>
 
       <div className={`nav-items ${isOpen && "open"}`}>
@@ -24,4 +26,3 @@ export const Navbar = () => {
     </div>
   );
 };
-

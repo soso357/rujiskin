@@ -12,6 +12,8 @@ const Cart = () => {
     removeItem,
     emptyCart,
   } = useCart();
+
+  console.log(items, "items")
   if (isEmpty) return <h1 className="text-center">your Cart is Empty</h1>;
   return (
     <section className="py-4 container">

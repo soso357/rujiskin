@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(195, 150, 37);
+  background: #ccab9c;
 }
 
 .Navbar > .nav-logo {
@@ -14,7 +14,7 @@
 }
 
 .Navbar > .nav-items > a {
-  color: rgb(247, 235, 12);
+  color: #8e5f4b;
   font-size: 16px;
   text-decoration: none;
   margin: 15px;
@@ -33,7 +33,7 @@
   bottom: o;
   width: 0;
   height: 2px;
-  background: rgb(241, 219, 76);
+  background: #8E5F4B;
   transition: all 0.45s;
 }
 

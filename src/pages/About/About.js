@@ -1,13 +1,13 @@
 import React from "react";
-import ImageSlider from "../../components/ImageSlider";
-import { SliderData } from "../../components/SliderData";
+import PinterestLayoute from "../../components/PinterestLayoute";
+
 
 
 const About = () => {
   return (
-   <div>
+   <div className="color12">
       <h1>About</h1>
-      <ImageSlider slides={SliderData} />
+      <PinterestLayoute slides={PinterestLayoute} />
     </div>
     
   );
