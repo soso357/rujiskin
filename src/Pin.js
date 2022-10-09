@@ -17,6 +17,7 @@ const styles = {
         padding: 0,
         borderRadius: '16px',
         backgroundColor: 'orange',
+        
     },
     small:  {
         gridRowEnd: 'span 26'
