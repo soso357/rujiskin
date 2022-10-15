@@ -11,21 +11,22 @@ const data = {
   productData:  [
     {
       
-      id: 1,
-      logo: bodilava,
+      id: 1,                             
+      logo: bodilava,                    
       title: "body lava",
       desc: "",
       price: 65,
+      
     },
 
     {
       
-      id: 2,
+      id: 'teko',
       logo: kombo,
       title: "Beach combo",
       desc: "",
       price: 100,
-    
+     
     },
 
     {

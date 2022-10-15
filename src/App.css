@@ -18,14 +18,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0a47c1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(129, 184, 191);
+  color: rgb(16, 23, 213);
 }
 
 .App-link {
@@ -49,7 +49,7 @@
 }
 
 .App {
-  color: rgb(197, 229, 57);
+  color: rgb(130, 97, 66);
   position: fixed;
   min-width: 100%;
   min-height: 100%;
@@ -58,6 +58,7 @@
   height: 100vh;
 }
 
+/*
 .slider {
   position: relative;
   height: 100vh;
@@ -106,11 +107,36 @@
 }
 
 .color12 {
-  background-color: rgb(186, 127, 9);
+  background-color: rgb(22, 16, 4);
 }
-
-
 
 .data {
-  flex: 10000%;
+   display: flex;
 }
+
+#teko {
+  right: 555px;
+  padding: 300px;
+  margin: 555px;
+}
+
+.photo-list {
+  width: 90%;
+  list-style: none;
+  margin: 20px auto;
+  display: flex;
+}
+
+.photo-item {
+  display: flex;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(201, 241, 5, 0.12);
+  margin: 20px 0;
+}
+
+.photo-item img {
+  display: flex;
+  width: 100%;
+  border: 4px double rgba(94, 245, 13, 0.12);
+}
+*/

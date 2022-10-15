@@ -1,10 +1,14 @@
 import React from "react";
 
+
+
+
 function Pin(props) {
   return (
    <div style={{
         ...styles.pin,
         ...styles[props.size]
+        
    }}> 
     
     </div>
@@ -13,10 +17,13 @@ function Pin(props) {
 
 const styles = {
     pin: {
+        
         margin: '15px 10px',
         padding: 0,
         borderRadius: '16px',
         backgroundColor: 'orange',
+        
+        
         
     },
     small:  {
@@ -26,8 +33,12 @@ const styles = {
         gridRowEnd: 'span 33'
     },
     large: {
+        
         gridRowEnd: 'span 45'
+
+        
     },
+    
 }
 
 export default Pin;

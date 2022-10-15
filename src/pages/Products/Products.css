@@ -1,0 +1,21 @@
+.py-4-container-product {
+ justify-content: space-around;
+  position: absolute;
+  top: 90px;
+  display: flex;
+
+  left: 20%;
+
+  width: 55%;
+  height: 40%;
+  flex-wrap: wrap;
+  
+  
+}
+
+.logo {
+  height: 160px;
+  width: 220px;
+  background-color: rgb(108, 82, 71);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

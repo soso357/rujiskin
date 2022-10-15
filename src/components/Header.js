@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Header = () => {
-  return <h1 className="ruji">Rujiskin</h1>;
+  return <h1 className="ruji"></h1>;
 };
 
 

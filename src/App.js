@@ -11,18 +11,25 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Cart from "./Cart";
 import { CartProvider } from "react-use-cart";
 import PinterestLayoute from "./components/PinterestLayoute";
+import Itemcard from "./components/Itemcard";
 
 
 
 const App = () => {
   return (
     <div className="App">
+       
+       
+      
+      
+      
       <Navbar />
       <PinterestLayoute/>
+      
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/products" element={<Products />} />
-
+        
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 
@@ -30,7 +37,9 @@ const App = () => {
       
       <CartProvider>
         <Cart />
+        
       </CartProvider>
+      
       
     </div>
   );

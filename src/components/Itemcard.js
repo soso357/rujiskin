@@ -1,6 +1,6 @@
 import React from "react";
 import { useCart } from "react-use-cart";
-import "./styles.css";
+
 
 const Itemcard = (props) => {
   const { addItem } = useCart();
