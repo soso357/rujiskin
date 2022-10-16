@@ -5,7 +5,7 @@ import React from "react";
 
 function Pin(props) {
   return (
-   <div style={{
+   <div  style={{
         ...styles.pin,
         ...styles[props.size]
         
@@ -25,6 +25,7 @@ const styles = {
         
         
         
+        
     },
     small:  {
         gridRowEnd: 'span 26'
@@ -34,9 +35,8 @@ const styles = {
     },
     large: {
         
-        gridRowEnd: 'span 45'
-
-        
+        gridRowEnd: 'span 45',
+       
     },
     
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import PinterestLayoute from "../../components/PinterestLayoute";
+
 import "./About.css"
 
 

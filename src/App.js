@@ -15,6 +15,7 @@ import Itemcard from "./components/Itemcard";
 
 
 
+
 const App = () => {
   return (
     <div className="App">
@@ -25,6 +26,8 @@ const App = () => {
       
       <Navbar />
       <PinterestLayoute/>
+      
+      
       
       <Routes>
         <Route path="/home" element={<Home />} />
